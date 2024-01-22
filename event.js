@@ -12,7 +12,7 @@
 
 // Event Handling 0
 
-let btn = document.querySelector("#clicked");
+/*let btn = document.querySelector("#clicked");
 btn.onclick = function(){
     alert("This Message From DOM 0 Label Handler ");
 }
@@ -22,4 +22,7 @@ btn.onclick = function(){
 let DOMTwo = document.querySelector("#DOMTwo");
 DOMTwo.addEventListener("click", function(){
     alert("Dom Two Label Handeler");
-})
+})*/
+
+// Load Event
+
