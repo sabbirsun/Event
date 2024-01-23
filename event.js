@@ -26,7 +26,7 @@ DOMTwo.addEventListener("click", function(){
 
 // JS Mouse Event
 
-let track = document.querySelector("#track");
+/*let track = document.querySelector("#track");
 
 function mouseEvent(e){
     console.log(e.type);
@@ -39,7 +39,17 @@ track.addEventListener("dblclick", mouseEvent);
 // track.addEventListener("mouseout", mouseEvent);
 track.addEventListener("mouseenter", mouseEvent);
 track.addEventListener("mouseleave", mouseEvent);
-track.addEventListener("mousemove", mouseEvent);
+track.addEventListener("mousemove", mouseEvent);*/
 
+// JS DOM Keyboard Event
+
+/*let message = document.querySelector("#message");
+function EventName(e){
+    console.log(e.type);
+    console.log(e.key);
+}
+message.addEventListener("keyup", EventName);
+message.addEventListener("keydown", EventName);
+message.addEventListener("keypress", EventName);*/ // H.W. ....> body part show in any character
 
 
