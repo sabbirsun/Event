@@ -52,4 +52,24 @@ message.addEventListener("keyup", EventName);
 message.addEventListener("keydown", EventName);
 message.addEventListener("keypress", EventName);*/ // H.W. ....> body part show in any character
 
+// Scroll Event
 
+// window.onscroll = ()=>{
+//     //console.log("Scrolled");
+//     alert("Your window is scrolled");
+// }
+// window.addEventListener("scroll", ()=>{
+//     console.log("scrolled down");
+// })
+// => logical function
+
+let scroller = 0;
+window.addEventListener("scroll", ()=>{
+    let newScroller = window.scrollYOffset || document.documentElement.scrollTop;
+    if(newScroller > scroller){
+        console.log("scroll is down");
+    }else{
+        console.log("scroll is up");
+    }
+    scroller = newScroller;
+})
