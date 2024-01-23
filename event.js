@@ -54,7 +54,7 @@ message.addEventListener("keypress", EventName);*/ // H.W. ....> body part show 
 
 // Scroll Event
 
-// window.onscroll = ()=>{
+/*// window.onscroll = ()=>{
 //     //console.log("Scrolled");
 //     alert("Your window is scrolled");
 // }
@@ -72,4 +72,16 @@ window.addEventListener("scroll", ()=>{
         console.log("scroll is up");
     }
     scroller = newScroller;
+})*/
+
+// Focus and Blur Event
+
+const MyInput = document.querySelector("#MyInput");
+MyInput.addEventListener("focus", (e)=>{
+    e.target.style.backgroundColor = "yellow";
+    e.target.style.Color = "black";
+})
+MyInput.addEventListener("blur", (e)=>{
+    e.target.style.backgroundColor = "red";
+    e.target.style.Color = "yellow";
 })
